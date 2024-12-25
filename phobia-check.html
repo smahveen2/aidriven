@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Phobias Check</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Phobias Check</h1>
+            <p>Answer the following questions to assess your phobias.</p>
+        </div>
+    </header>
+
+    <section id="phobias-check-form">
+        <div class="container">
+            <form id="phobias-form">
+                <p><strong>1. Do you feel extremely anxious when you encounter certain objects or situations (e.g., spiders, heights, etc.)?</strong></p>
+                <label><input type="radio" name="q1" value="1" required> Yes</label>
+                <label><input type="radio" name="q1" value="0"> No</label>
+
+                <p><strong>2. Do you try to avoid situations or places that trigger your fear?</strong></p>
+                <label><input type="radio" name="q2" value="1" required> Yes</label>
+                <label><input type="radio" name="q2" value="0"> No</label>
+
+                <p><strong>3. When faced with a phobic situation, do you experience rapid heartbeat, sweating, or dizziness?</strong></p>
+                <label><input type="radio" name="q3" value="1" required> Yes</label>
+                <label><input type="radio" name="q3" value="0"> No</label>
+
+                <p><strong>4. Do you feel a strong desire to flee or escape when confronted by your fear?</strong></p>
+                <label><input type="radio" name="q4" value="1" required> Yes</label>
+                <label><input type="radio" name="q4" value="0"> No</label>
+
+                <p><strong>5. Has your fear interfered with your daily life or relationships?</strong></p>
+                <label><input type="radio" name="q5" value="1" required> Yes</label>
+                <label><input type="radio" name="q5" value="0"> No</label>
+
+                <button type="submit">Submit</button>
+            </form>
+
+            <div id="result" style="display:none;">
+                <h2>Your Phobia Level</h2>
+                <p id="phobia-result"></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 AI Virtual Therapist. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="phobias-check.js"></script>
+</body>
+</html>
