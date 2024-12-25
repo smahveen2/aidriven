@@ -1,0 +1,41 @@
+/* Phobias Check Styles */
+#phobias-check-form {
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+
+#phobias-check-form p {
+    font-size: 1.1em;
+    margin: 15px 0;
+}
+
+#phobias-check-form label {
+    font-size: 1em;
+    margin-left: 10px;
+}
+
+#phobias-check-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#phobias-check-form button:hover {
+    background-color: #45a049;
+}
+
+#result {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    text-align: center;
+}
